@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="home.css">
+    <title>ABC Greenhouse Solutions</title>
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/ABC-removebg-preview.png" alt="ABC Logo">
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutus">About Us</a></li>
+                    <li><a href="#vision">Vision</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#products">Products</a></li>
+                </ul>
+            </nav>
+                <button class="contact-btn">Contact Us</button>
+        </div>
+    </header>
+
+
+    <!--Hero Section-->
+
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="slide active" style="background-image: url(images/ries-bosch-r_bRhFbbg6M-unsplash.jpg)"></div>
+            <div class="slide" style="background-image: url(images/zoe-richardson-Yh_xH-tWI-0-unsplash.jpg)"></div>
+            <div class="slide" style="background-image: url(images/scott-webb-Cnd4Ql0oRvk-unsplash.jpg)"></div>
+            <div class="slide" style="background-image: url(images/zoe-richardson-H0iAXFekiWo-unsplash.jpg)"></div>
+        </div>
+        
+        <div class="hero-overlay"></div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Fresh Produce, Smart Future</h1>
+                <p>Where smart farming meets nature — delivering flavorful harvests locally, and preparing to share them globally.</p>
+                <a href="about.html" class="cta-button">Discover Our Story</a>
+            </div>
+        </div>
+
+        <div class="slider-nav">
+            <div class="nav-dot active" onclick="currentSlide(1)"></div>
+            <div class="nav-dot" onclick="currentSlide(2)"></div>
+            <div class="nav-dot" onclick="currentSlide(3)"></div>
+            <div class="nav-dot" onclick="currentSlide(4)"></div>
+        </div>
+    </section>
+
+
+    <!--About-Us Section-->
+
+    <section class="about-us" id="aboutus">
+        <div class="container">
+            <div class="section-header">
+                <h2>About ABC Greenhouse Solutions</h2>
+                <p>Leading the future of sustainable agriculture in Sri Lanka</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Our Story</h3>
+                    <p>Founded in the heart of Kandy, ABC Greenhouse Solutions has been at the forefront of revolutionary farming techniques for over a decade. We specialize in controlled environment agriculture, bringing you the freshest produce year-round while minimizing environmental impact.</p>                     
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">10+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Employees</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="about-image">
+                    <video autoplay loop muted src="images/5479114-uhd_3840_2160_25fps.mp4"></video>
+                </div>
+        </div>
+    </section>
+
+
+    <!--Vision Section-->
+    
+    <section class="why-choose-us" id="vision">
+        <img src="images/zoe-richardson-W_ISm5LwKHQ-unsplash.jpg" class="vision">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Vision & Future Plans</h2>
+                <p>To grow healthy food the smart way — for people, planet, and progress.</p>
+            </div>
+            <div class="features-content">
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <h3>Expand into international export markets</h3>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <h3>Increase greenhouse coverage and production</h3>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Launch organic and value-added product lines</h3>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h3>Partner with global distributors and retailers</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Services Section-->
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Comprehensive greenhouse solutions tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Greenhouse Design & Construction</h3>
+                    <p>Custom-designed greenhouse structures using cutting-edge materials and climate control systems for optimal growing conditions.</p>
+                    <ul>
+                        <li>Climate-controlled environments</li>
+                        <li>Energy-efficient designs</li>
+                        <li>Automated irrigation systems</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Organic Produce Supply</h3>
+                    <p>Fresh, pesticide-free vegetables and fruits grown in our state-of-the-art greenhouses, delivered directly to your doorstep.</p>
+                    <ul>
+                        <li>Premium tomatoes & strawberries</li>
+                        <li>Leafy greens & herbs</li>
+                        <li>Seasonal specialty crops</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Maintenance & Support</h3>
+                    <p>Comprehensive maintenance services to ensure your greenhouse operates at peak efficiency throughout the year.</p>
+                    <ul>
+                        <li>Regular system inspections</li>
+                        <li>Equipment maintenance</li>
+                        <li>Technical support 24/7</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Products Section-->
+
+    <section class="products-section" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Premium Products</h2>
+                <p>Fresh, organic produce grown with cutting-edge greenhouse technology</p>
+            </div>
+
+                <div class="slider-navigation">
+                    <button class="slider-btn prev-btn" onclick="slideProducts(-1)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-btn next-btn" onclick="slideProducts(1)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            
+            <div class="products-slider-container">
+                <div class="products-slider" id="productsSlider">
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/immo-wegmann-S-de8PboZmI-unsplash.jpg" alt="Premium Tomatoes">
+                            <div class="product-badge">Fresh</div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Vegetables</div>
+                            <h3>Premium Tomatoes</h3>
+                            <p>Juicy, vine-ripened tomatoes grown in our climate-controlled greenhouses. Perfect for salads, cooking, and fresh consumption.</p>
+                            <div class="product-features">
+                                <span><i class="fas fa-leaf"></i> Organic</span>
+                                <span><i class="fas fa-droplet"></i> Pesticide-Free</span>
+                                <span><i class="fas fa-calendar"></i> Year-Round</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/athena-fernandez-mZnC2chTNbk-unsplash.jpg">
+                            <div class="product-badge bestseller">Bestseller</div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Fruits</div>
+                            <h3>Fresh Strawberries</h3>
+                            <p>Sweet, succulent strawberries cultivated in optimal conditions. Rich in vitamins and antioxidants for a healthy lifestyle.</p>
+                            <div class="product-features">
+                                <span><i class="fas fa-leaf"></i> Organic</span>
+                                <span><i class="fas fa-heart"></i> Antioxidant Rich</span>
+                                <span><i class="fas fa-star"></i> Premium Quality</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/willy-wong-W4P8xQtmLR0-unsplash.jpg" alt="Leafy Greens Mix">
+                            <div class="product-badge">Fresh</div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Leafy Greens</div>
+                            <h3>Premium Salad Mix</h3>
+                            <p>Fresh blend of lettuce, spinach, and arugula. Crispy, nutritious greens perfect for healthy salads and sandwiches.</p>
+                            <div class="product-features">
+                                <span><i class="fas fa-leaf"></i> Organic</span>
+                                <span><i class="fas fa-seedling"></i> Hydroponic</span>
+                                <span><i class="fas fa-clock"></i> Fresh Daily</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/le-thanh-son-FmEyKDtL2zo-unsplash.jpg" alt="Fresh Herbs">
+                            <div class="product-badge">Organic</div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Herbs</div>
+                            <h3>Fresh Herb Collection</h3>
+                            <p>Aromatic herbs including basil, mint, and cilantro. Grown fresh daily to enhance your culinary creations with natural flavors.</p>
+                            <div class="product-features">
+                                <span><i class="fas fa-leaf"></i> Organic</span>
+                                <span><i class="fas fa-utensils"></i> Culinary Grade</span>
+                                <span><i class="fas fa-spa"></i> Aromatic</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/srinivas-bandari-5wWMU0oLZxY-unsplash.jpg" alt="Bell Peppers">
+                            <div class="product-badge">Fresh</div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Vegetables</div>
+                            <h3>Colorful Bell Peppers</h3>
+                            <p>Vibrant red, yellow, and green bell peppers. Crunchy, sweet, and packed with vitamins for healthy cooking and snacking.</p>
+                            <div class="product-features">
+                                <span><i class="fas fa-leaf"></i> Organic</span>
+                                <span><i class="fas fa-palette"></i> Colorful</span>
+                                <span><i class="fas fa-shield-alt"></i> Vitamin Rich</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">
+                            <img src="images/larkkid-yang-VBcrC8fWoNg-unsplash.jpg" alt="Cherry Tomatoes">
+                            <div class="product-badge">Fresh</div>
+                        </div>
+                        <div class="product-info">
+                            <div class="product-category">Vegetables</div>
+                            <h3>Cherry Tomatoes</h3>
+                            <p>Sweet, bite-sized cherry tomatoes bursting with flavor. Perfect for snacking, salads, and gourmet cooking applications.</p>
+                            <div class="product-features">
+                                <span><i class="fas fa-leaf"></i> Organic</span>
+                                <span><i class="fas fa-candy-cane"></i> Sweet</span>
+                                <span><i class="fas fa-gem"></i> Gourmet</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-indicators">
+                    <div class="indicator active" onclick="goToSlide(0)"></div>
+                    <div class="indicator" onclick="goToSlide(1)"></div>
+                    <div class="indicator" onclick="goToSlide(2)"></div>
+                    <div class="indicator" onclick="goToSlide(3)"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer Section-->
+
+    <footer class="footer">       
+        <div class="footer-container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <div class="company-info">
+                        <div class="company-logo">ABC Greenhouse Solutions</div>
+                        <p class="company-description">
+                            Where smart farming meets nature — delivering flavorful harvests locally, and preparing to share them globally.
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M22.675 0h-21.35C.594 0 0 .594 0 1.326v21.348C0 23.406.594 24 1.325 24h11.495V14.708h-3.13v-3.622h3.13V8.413c0-3.1 1.894-4.788 4.659-4.788 1.325 0 2.464.098 2.796.143v3.24l-1.918.001c-1.504 0-1.796.715-1.796 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116C23.406 24 24 23.406 24 22.674V1.326C24 .594 23.406 0 22.675 0z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.206.057 2.005.24 2.466.415a4.92 4.92 0 0 1 1.717 1.005 4.92 4.92 0 0 1 1.005 1.717c.175.461.358 1.26.415 2.466.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.057 1.206-.24 2.005-.415 2.466a4.902 4.902 0 0 1-1.005 1.717 4.902 4.902 0 0 1-1.717 1.005c-.461.175-1.26.358-2.466.415-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.206-.057-2.005-.24-2.466-.415a4.92 4.92 0 0 1-1.717-1.005 4.92 4.92 0 0 1-1.005-1.717c-.175-.461-.358-1.26-.415-2.466C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.057-1.206.24-2.005.415-2.466a4.902 4.902 0 0 1 1.005-1.717 4.902 4.902 0 0 1 1.717-1.005c.461-.175 1.26-.358 2.466-.415C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.013 7.052.072 5.775.13 4.651.36 3.678.735a7.924 7.924 0 0 0-2.92 1.908A7.924 7.924 0 0 0 .735 5.678C.36 6.651.13 7.775.072 9.052.013 10.332 0 10.741 0 14s.013 3.668.072 4.948c.058 1.277.288 2.401.663 3.374a7.924 7.924 0 0 0 1.908 2.92 7.924 7.924 0 0 0 2.92 1.908c.973.375 2.097.605 3.374.663 1.28.059 1.689.072 4.948.072s3.668-.013 4.948-.072c1.277-.058 2.401-.288 3.374-.663a7.924 7.924 0 0 0 2.92-1.908 7.924 7.924 0 0 0 1.908-2.92c.375-.973.605-2.097.663-3.374.059-1.28.072-1.689.072-4.948s-.013-3.668-.072-4.948c-.058-1.277-.288-2.401-.663-3.374a7.924 7.924 0 0 0-1.908-2.92 7.924 7.924 0 0 0-2.92-1.908C18.401.36 17.277.13 16 .072 14.719.013 14.309 0 12 0zM12 5.838a6.163 6.163 0 1 0 0 12.326 6.163 6.163 0 0 0 0-12.326zm0 10.163a4 4 0 1 1 0-8.001 4 4 0 0 1 0 8.001zm6.406-11.845a1.44 1.44 0 1 1-2.88 0 1.44 1.44 0 0 1 2.88 0z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M22.23 0H1.77C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.23 0zM7.12 20.452H3.56V9h3.56v11.452zM5.34 7.433a2.065 2.065 0 1 1 0-4.13 2.065 2.065 0 0 1 0 4.13zM20.452 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.352V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286z"/>
+                                </svg>
+                            </a>
+                            <a href="#" class="social-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 4.557a9.832 9.832 0 0 1-2.828.775 4.932 4.932 0 0 0 2.165-2.724 9.864 9.864 0 0 1-3.127 1.195 4.916 4.916 0 0 0-8.384 4.482C7.691 8.095 4.066 6.13 1.64 3.161a4.822 4.822 0 0 0-.666 2.475c0 1.708.869 3.216 2.188 4.099a4.902 4.902 0 0 1-2.229-.616v.06c0 2.385 1.693 4.374 3.946 4.827a4.936 4.936 0 0 1-2.224.084c.63 1.964 2.445 3.392 4.6 3.433a9.867 9.867 0 0 1-6.102 2.104c-.395 0-.787-.023-1.17-.068A13.945 13.945 0 0 0 7.548 21c9.142 0 14.307-7.721 14.307-14.424 0-.22-.005-.439-.014-.656A10.243 10.243 0 0 0 24 4.557z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#aboutus">About Us</a></li>
+                        <li><a href="#vision">Vision</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#products">Products</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p> <i class="fas fa-phone"></i>  0312212455</p>
+                    <p> <i class="fas fa-phone"></i>  0777341231</p>
+                    <p> <i class="fas fa-envelope"></i>  ABCgreenhouses@gmail.com</p>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="copyright">
+                    © 2025 ABC Greenhouse Solutions. All rights reserved.
+                </div>
+                <ul class="footer-bottom-links">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
